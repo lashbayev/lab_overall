@@ -1,12 +1,30 @@
-#Dates
-import datetime
+#Math
+import math
+#Buit-in functions 
+x = min(5, 10, 25)
+y = max(5, 10, 25)
 
-x = datetime.datetime.now()
 print(x)
-print(x.year)
-print(x.strftime("%A"))
+print(y)
 
+x = abs(-7.25)
 
-x = datetime.datetime(2018, 6, 1)
+print(x)
 
-print(x.strftime("%B"))
+x = pow(4, 3)
+
+print(x)
+#Functions from math module 
+x = math.sqrt(64)
+
+print(x)
+
+x = math.ceil(1.4)
+y = math.floor(1.4)
+
+print(x) # returns 2
+print(y) # returns 1
+
+x = math.pi
+
+print(x)
