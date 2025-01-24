@@ -1,22 +1,12 @@
-#Modules
-import mymodule
-import platform #built-in platform
+#Dates
+import datetime
 
-mymodule.greeting('Khaby')
-
-a = mymodule.person1["age"]
-print(a)
-
-x = platform.system()
-print(x) #outputs windows
-
-x = dir(platform)
+x = datetime.datetime.now()
 print(x)
+print(x.year)
+print(x.strftime("%A"))
 
-x = dir(mymodule)
-print(x)
 
-#'from' keyword
-from mymodule import person1
+x = datetime.datetime(2018, 6, 1)
 
-print (person1["age"])
+print(x.strftime("%B"))
